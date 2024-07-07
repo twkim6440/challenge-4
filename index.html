@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- <link rel="stylesheet" href=".assets/css/form.css"/> -->
+    <title>Challenge 4: My First Blog</title>
+</head>
+<body>
+    <div class="container light">
+      <header>
+        <h1 class="prj-title">
+          Challenge 4: My First Blog
+        </h1>
+        <div id="toggle_img">
+          <label class="switch">
+            <img src="./assets/images/picture-TK.jpg" width="130" height="130" alt="TK" id="tk-switch"/>
+          </label>
+        </div>
+      </header>
+      <section class="contents-section">
+        <section class="logo-section">
+          <img src="./assets/images/myFirstBlog.png" alt="logo" class="logo"/>
+        </section>
+
+        <section class="user-input-section">
+          <div class="card">
+            <h2>What's on your mind?<span id="Input-title"></span></h2>
+            <form method="POST">
+               <div class = 'input-group'>
+                <label for="title">Title: </label> <br>
+                <input type="text" id="title" name="title" placeholder="Enter your Title here"><br><br>
+               </div>
+               <div class = 'input-group'>
+                <label for="content">Content: </label> <br>
+                <input type="text" id="content" name="content" placeholder="Enter your Content here"><br><br>
+               </div>
+               <div class = 'input-group'>
+                <label for="userName">User Name: </label> <br>
+                <input type="text" id="userName" name="userName" placeholder="Enter your Name here"><br><br>
+               </div>
+               <div id="msg"></div>
+            </div>
+            <button id="submit-table-button">Submit & Check the blog information in Table format</button>
+            <button id="submit-box-button">Submit & Check the blog information in Box format</button>
+            <button id="clear-local-storage-button">Clear Local Storage</button>
+          </form>
+        </section>
+      </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+    <!-- <script src=".assets/js/blog.js"></script> -->
+    <!-- <script src=".assets/js/form.js"></script> -->
+</body>
+</html>
+

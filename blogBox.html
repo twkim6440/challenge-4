@@ -1,0 +1,53 @@
+<!-- Displaying entered blog information using Table format -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>List of Blogs in Boxes</title>
+    <link rel="stylesheet" href="./assets/css/blogBox.css"/>
+</head>
+
+<body>
+    <div class="container light">
+        <!-- Project header to display Title, Back Button and Light Toggle Button -->
+        <header>
+          <h1 class="prj-title">
+            Posted Blogs in Box Format - My First Blog
+          </h1>
+          <button id="back-button">Back</button>
+          <div id="toggle_img">
+            <label class="switch">
+              <img src="./assets/images/picture-TK.jpg" width="130" height="130" alt="TK" id="tk-switch"/>
+            </label>
+          </div>
+        </header>
+
+        <!-- Project body to display each blog (User Name, Title and Content) in a table format -->
+        <section class="contents-section">
+          <!-- <div class="posts" id = "posts"></div> -->
+
+            <div id="container" class="box">
+              <div class="row blog-title"></div>
+              <div class="row line"></div>
+              <div class="row blog-content"></div>
+              <div class="row blog-author"></div> 
+
+              <!-- <div class="blog-title">Title: </div>
+              <div class="blog-content">Contents: </div>
+              <div class="blog-author">Posted by: </div> -->
+            </div>
+          </section>
+    </div>
+    <br>
+    <!-- Footer Button to navigate to the developer's portfolio -->
+    <button id="developers-portfolio-button">
+      Visit Taewoo Kim (TK)'s Portfolio & explore some of the interesting topics...! <br>
+      Blog: Full-Stack Blog <br>
+      Email: bighelper6440@gmail.com</button>
+    <script src="./assets/js/blogBox.js"></script>
+</body>
+</html>
+
