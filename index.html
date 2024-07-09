@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Challenge 4: My First Blog</title>
+</head>
+<body>
+    <div class="container light">
+        <!-- Project header to display Title, Back Button and Light Toggle Button -->
+        <header>
+        <h1 class="prj-title">
+          Challenge 4: My First Blog
+        </h1>
+        <div id="toggle_img">
+          <label class="switch">
+             <!-- I have used my picture as the toggle switch for light and dark --> 
+             <img src="./assets/images/picture-TK.jpg" width="130" height="130" alt="TK" id="tk-switch"/>
+          </label>
+        </div>
+      </header>
+      <section class="contents-section">
+        <section class="logo-section">
+          <img src="./assets/images/myFirstBlog.png" alt="logo" class="logo"/>
+        </section>
+        <!-- Section to enter blog information (User Name, Title and Content) in a BOX format -->
+        <section class="user-input-section">
+          <div class="card">
+            <h2>What's on your mind?<span id="Input-title"></span></h2>
+            <form method="POST">
+               <div class = 'input-group'>
+                <label for="title"><h3>Title: </h3></label> 
+                <input type="text" id="title" name="title" placeholder="Enter your Title here">
+               </div>
+               <div class = 'input-group'>
+                <label for="content"><h3>Content: </h3></label>
+                <input type="text" id="content" name="content" placeholder="Enter your Content here">
+               </div>
+               <div class = 'input-group'>
+                <label for="userName"><h3>User Name: </h3></label>
+                <input type="text" id="userName" name="userName" placeholder="Enter your Name here">
+               </div>
+               <div id="msg"></div>
+            </div>
+             <!-- Since I couldn't figure out how to display contents in a box, I have used table instead --> 
+             <button id="submit-table-button">Submit & Check the blog information in Table format</button>
+             <!-- I tried to display blog information in a box, and created another submit-box-button --> 
+             <button id="submit-box-button">Submit & Check the blog information in Box format</button>
+             <!-- Since I had to work with local storage, used another button to clear local storage --> 
+             <!-- <button id="clear-local-storage-button">Clear Local Storage</button> -->
+             <button class="developers-portfolio-button" id="developers-portfolio-button">
+              Visit Taewoo Kim (TK)'s Portfolio & explore some of the interesting topics...! <br>
+              Blog: Full-Stack Blog <br>
+              Email: bighelper6440@gmail.com
+            </button>
+    
+    
+          </form>
+        </section>
+      </section>
+    </div>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
