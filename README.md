@@ -12,7 +12,8 @@
   - If I have more time to work on it, I will update the result and re-submit it when done.
   - Other than that, I think I've met all the acceptance criteria.
   - I have reused the codes that have been explored during the activities, and utilized Xpert Learning Assistant a lot. 
-  - Challenge results are captured and explained in a separate pdf file showing what has been done
+  - Challenge results are captured and explained in a separate pdf file showing what has been done: 'Challenge_4_Results.
+  - I have updated diplaying the blogs with a box, as well. 
 
 * Submitted 2 URLs are: 
   - https://twkim6440.github.io/challenge-4/
